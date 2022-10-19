@@ -22,8 +22,12 @@
   border: 1px solid #ccc;
   padding: 20px;
 }
+button{
+  font-family: 'Poppins', sans-serif;
+}
 .buttonsContainer button {
   margin-top: 15px;
+  
 }
 .buttonsContainer button {
   padding: 10px;
@@ -86,6 +90,7 @@
   border: none;
   color: #fff;
   cursor: pointer;
+
 }
 .buttons button img{
   width: 20px;
@@ -102,6 +107,31 @@
   transition: all ease-in-out 0.3s;
   background: #09BC8A;
   color: #000;
+}
+.checked,.cleared{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.checked button,.cleared button{
+  padding: 10px;
+  margin-right: 10px;
+
+  background: rgb(203, 210, 59);
+  color: #fff;
+  border: none;
+  width: 100px;
+  cursor: pointer;
+  outline: none;
+  transition: 0.4s ease-in-out;
+
+}
+
+.checked button:hover ,.cleared button:hover{
+background: rgb(191, 119, 119);
 }
 
 @media only screen and (max-width:780px){

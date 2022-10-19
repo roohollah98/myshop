@@ -16,7 +16,7 @@ const Basket = () => {
         })}
       </div>
       {basket.checkOut && (
-        <div className="checkoutContainer">
+        <div className={style.checked}>
           <p>checkOut successFully</p>
           <button
             onClick={() => {
@@ -54,7 +54,7 @@ const Basket = () => {
       )}
 
       {basket.total<1 && !basket.checkOut && (
-        <div className="clearContainer">
+        <div className={style.cleared}>
           <p>cleared successfully</p>
           <Link to="/">
             <button>go back </button>
