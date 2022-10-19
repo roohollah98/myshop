@@ -1,0 +1,37 @@
+.headerContainer {
+  height: 70px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* background: rgb(112, 55, 84); */
+  background: #b84a62;
+  z-index: 10;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+.headerContainer{
+  text-decoration: underline;
+}
+.iconWrapper {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+
+}
+.iconWrapper img {
+  height: 100%;
+}
+.iconWrapper span {
+  position: absolute;
+  top:40%;
+  right: 30%;
+  padding:1px 4px ;
+   background: #da1f0a;
+  
+   color: #fff;
+  }
+
+  
